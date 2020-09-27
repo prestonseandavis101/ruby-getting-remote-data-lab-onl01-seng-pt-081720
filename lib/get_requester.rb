@@ -10,6 +10,8 @@ class GetRequester
  end
   
   def get_response_body
+    
+    Getequester
    
   end
   
