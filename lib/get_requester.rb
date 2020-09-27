@@ -20,7 +20,7 @@ class GetRequester
   
   def parse_json
     
-    results = JSON.parse(self.get_results)
+    results = JSON.parse(self.get_response_body)
     results.collect do |result|
       result["hash"]
     end
