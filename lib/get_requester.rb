@@ -22,7 +22,8 @@ class GetRequester
     
     results = JSON.parse(self.get_results)
     results.collect do |result|
-      result["result"]
+      result["hash"]
+    end
     
   end
     
