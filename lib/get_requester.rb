@@ -11,7 +11,8 @@ class GetRequester
   
   def get_response_body
     
-    get_requester = 
+    get_requester = GetRequester.new(url)
+    
    
   end
   
